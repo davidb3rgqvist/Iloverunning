@@ -37,13 +37,13 @@ header a {
     color: inherit;
 }
 
-#meny {
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-#meny>li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -133,4 +133,17 @@ footer {
     .main {
         margin-top: 79px;
     }
+}
+
+/* Media query: desktop (992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+.fa-brands fa-facebook {
+    color: red;
 }
