@@ -211,49 +211,48 @@ main {
 }
 
 #signup {
+    background-image: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
-    flex-grow: 1;
-    background-image: url(../images/signup-image.webp);
     padding: 20px 10% 0 10%;
-
+    flex-grow: 1;
 }
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, .6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
-#signup-form h2 {
-    color: #ffffff;
+#signup-form>h2 {
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
 .text-input {
-    background-color: transparent;
+    background: transparent;
     color: #fafafa;
-    border: solid 1px #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
-    margin-top: 5px;
-    margin-bottom: 20px;
 }
 
 .radio-buttons {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-
 }
 
 .join-button {
+    margin-top: 20px;
     border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
-    font-size: 100%;
-    padding: 15px 32px;
-    margin-top: 20px;
 }
 
 /* Footer */
